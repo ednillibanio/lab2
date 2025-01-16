@@ -9,9 +9,9 @@ on:
         description: 'Run Specific Job'
         
       custom_message:
-        description: 'Enter a custom message'
-        required: true
         type: string
+        required: true
+        description: 'Enter a custom message'
 
 jobs:
   job1:
